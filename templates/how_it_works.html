@@ -1,0 +1,58 @@
+{% include "header.html" %}
+
+<!-- Page Header-->
+<header
+  class="masthead"
+  style="background-image: url('../static/assets/img/home-bg.jpg')"
+>
+  <div class="container position-relative px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+      <div class="col-md-10 col-lg-8 col-xl-7">
+        <div class="page-heading">
+          <h1>How Khaled Blog Works</h1>
+          <span class="subheading">Learn what you can do and what visitors see</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Main Content -->
+<main class="mb-4">
+  <div class="container px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+      <div class="col-md-10 col-lg-8 col-xl-7">
+
+        <h2>Welcome to Khaled Blog!</h2>
+        <p>
+          This blog is a space where I share thoughts about tech, coding, and data analysis.
+          You can explore posts, follow tutorials, and learn new things.
+        </p>
+
+        <h3>Visitor (Not logged in)</h3>
+        <ul>
+          <li>Read all posts freely.</li>
+          <li>Cannot comment or interact with posts.</li>
+          <li>To comment or create posts, you need to register or log in.</li>
+        </ul>
+
+        <h3>Registered User</h3>
+        <ul>
+          <li>Can comment on posts.</li>
+          <li>Can view their own profile (optional).</li>
+          <li>Cannot delete or edit other posts.</li>
+        </ul>
+
+        <h3>Admin (Me)</h3>
+        <ul>
+          <li>Can create, edit, and delete any post.</li>
+          <li>Can manage contact messages.</li>
+          <li>Has full access to site content management.</li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+</main>
+
+{% include "footer.html" %}

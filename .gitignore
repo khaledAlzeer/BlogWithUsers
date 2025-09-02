@@ -1,0 +1,22 @@
+# created by virtualenv automatically
+# Python virtual environment
+.venv/
+env/
+venv/
+
+# PyCharm project files
+.idea/
+
+# Python bytecode
+*.pyc
+__pycache__/
+
+# SQLite database
+*.db
+
+# Flask instance folder (لو عندك instance folder)
+instance/
+
+# Logs
+*.log
+
