@@ -312,5 +312,3 @@ def admin_messages():
 # Run the Flask app
 if __name__ == "__main__":
     app.run(debug=True, port=5001)
-
-# Day 71: publishing Our Flask Website --> Git and Githup and HEROKU and gunicorn --> the final khaled-flask-blog-herokuapp.com
